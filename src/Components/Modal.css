@@ -1,0 +1,93 @@
+.modal-content{
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        grid-template-rows: 1fr;
+        padding: 40px;
+        box-shadow: 0px 4px 4px rgba(14, 56, 80, 0.25);
+        border-radius: 36px;
+       
+
+}
+
+.mini-cards-container{
+    background-color: #F7F8F9;
+    
+}
+
+.info-mini-container{
+    background-color: #F9F9F7;
+    height: 251px;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+.mini-card{
+    margin: 50px;
+    width:50%;
+    display: flex;
+   
+    box-shadow: 0px 9px 16px rgba(0, 20, 44, 0.1);
+    background-color: #fff;
+   
+}
+.item-info-text{
+  padding: 20rem;
+}
+
+.parent-lil{
+ 
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        gap: 12px;
+        align-content: center;
+        text-align: center;
+        margin-top: 15rem;
+        margin-left: 4rem;
+
+}
+
+.item-name {
+    padding-top:2em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+.p-info{
+    text-align: center;
+}
+.mini-picture{
+        height: 129px;
+        width: 125px;
+        object-fit: cover;
+     
+}
+
+.item-picture{
+    width: 100%;
+    height: auto;
+}
+
+
+.menu-picture{
+    width: 111px;
+    height: 111px;
+    border-radius: 50%;
+}
+
+.little-menu{
+   height: 15rem;
+   background-color:#F9F9F7 ;
+   
+}
+
+.main-mini-conatiner{
+    display: flex;
+}
+
+
+@media only screen and (max-width: 625px){
+
+ .mini-cards-container{
+
+ }
+}
